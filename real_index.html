@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Modified from file in demo: https://gitlab.pavlovia.org/demos/jsPsych_SimpleReactionTime/blob/master/index.html -->
+<!-- Slider style help from: https://stackoverflow.com/questions/26612700/ticks-for-type-range-html-input -->
+<!-- Radio button formatting: https://stackoverflow.com/questions/22458889/how-can-i-align-a-radio-buttons-text-under-the-button-itself -->
+<!-- And: http://www.java2s.com/example/html-css/css-form/align-a-radio-buttons-text-under-the-button-itself.html -->
+<!-- And: https://www.jspsych.org/7.0/overview/style/ -->
+<head>
+    <title>Text-based task</title>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="node_modules/jspsych/jspsych.js"></script>
+    <link href="node_modules/jspsych/css/jspsych.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+
+    <!-- For the histogram -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
+
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-html-button-response.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-survey-text.js"></script>
+    <!-- <script type="text/javascript" src="custom_plugins/jspsych-multiple-slider.js"></script> -->
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-instructions.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-survey-multi-choice.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-preload.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-call-function.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-survey-html-form.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-html-slider-response.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-survey-multi-select.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-external-html.js"></script>
+    <script type="text/javascript" src="node_modules/jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+
+    <!-- <script type="text/javascript" src="lib/vendors/jquery-2.2.0.min.js"></script> -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="lib/jspsych-pavlovia-2020.2.js"></script> -->
+	<script type="text/javascript" src="https://pavlovia.org/lib/jspsych-pavlovia-2020.2.js"></script>
+    <script type="text/javascript" src="resources/batches.js"></script>
+
+    <link href="node_modules/jspsych/css/jspsych.css" rel="stylesheet" type="text/css" />
+    <link href="custom_styling.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body>
+    <!-- <script>
+    WebDNN.load('./model');
+    </script> -->
+    <script src="task.js"></script>
+
+</body>
+
+</html>
+

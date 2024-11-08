@@ -1,0 +1,13 @@
+{
+  "experiment": {
+    "name": "modiste_setup_2",
+    "fullpath": "Mihir_Upadhyay/modiste_setup_2",
+    "saveIncompleteResults": true,
+    "saveFormat": "csv",
+    "license": "MIT License",
+    "status2": "active"
+  },
+  "pavlovia": {
+    "URL": "https://pavlovia.org"
+  }
+}

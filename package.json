@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "jspsych": "^6.3.0"
+  }
+}
