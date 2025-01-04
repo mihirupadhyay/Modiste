@@ -1,3 +1,4 @@
+# Steps to run modiste:
 1. Run generate_env_requirements.py and create an env with dependencies.
 2. Run server.py in the created environment.
 3. check server's response using something like this - curl "http://localhost:80/user1244*1*C*B*0*algLinUCB_0.9"
